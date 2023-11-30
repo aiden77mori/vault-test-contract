@@ -1,0 +1,29 @@
+{
+  "name": "vault",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Aiden",
+  "scripts": {
+    "coverage": "npx hardhat coverage",
+    "test": "npx hardhat test",
+    "clean": "npx hardhat clean",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.9.0",
+    "chai": "^4.3.6",
+    "chalk": "4.1.0",
+    "dotenv": "^16.0.3",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.9"
+  },
+  "devDependencies": {
+    "hardhat": "^2.9.9",
+    "solidity-coverage": "^0.8.5"
+  }
+}
